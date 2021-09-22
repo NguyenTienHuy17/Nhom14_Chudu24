@@ -1,0 +1,543 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family:Arial;
+}
+
+#header {
+    width: 100%;
+    height: 188px;
+    clear: both;
+    border-bottom: 2px solid #86b817;
+}
+
+.top-head {
+    width: 100%;
+    height: 33%;
+    background-color: #86b817;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+    .top-head .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .top-head .container .left-header {
+            width: 35%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .top-head .container .left-header ul {
+                display: flex;
+                width: 100%;
+                height: 100%;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 0;
+            }
+
+                .top-head .container .left-header ul li {
+                    list-style: none;
+                    border-right: 1px solid #fff;
+                    padding-right: 0.9rem;
+                }
+
+                    .top-head .container .left-header ul li:last-child {
+                        border: none;
+                    }
+
+        .top-head .container ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-family: Arial;
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+        .top-head .container .right-header {
+            width: 40%;
+            height: 100%;
+        }
+
+    .top-head .right-header ul {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+        .top-head .right-header ul li {
+            list-style: none;
+            border-left: 1px solid #fff;
+            padding-left: 1rem;
+        }
+
+            .top-head .right-header ul li:first-child {
+                border: none;
+            }
+
+    .top-head ul li a:hover {
+        text-decoration: underline;
+    }
+/* bottom hearder*/
+#header .bottom-head {
+    width: 100%;
+    height: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+    #header .bottom-head .container {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.bottom-head .container-head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .bottom-head .container-head .left-bottom {
+        width: 195px;
+        height: 70px;
+    }
+
+        .bottom-head .container-head .left-bottom .logo {
+            padding: 5px 0;
+            margin: 0;
+        }
+
+    .bottom-head .container-head .mid-bottom {
+        width: 680px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+
+        .bottom-head .container-head .mid-bottom ul {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            .bottom-head .container-head .mid-bottom ul li {
+                width: 15%;
+                display: inline-block;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+
+                .bottom-head .container-head .mid-bottom ul li a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: #86b817;
+                    white-space: nowrap;
+                    font-family: Arial;
+                    font-size: 13px;
+                    font-weight: 700;
+                }
+
+                .bottom-head .container-head .mid-bottom ul li:hover {
+                    background-color: #86b817;
+                }
+
+                    .bottom-head .container-head .mid-bottom ul li:hover a {
+                        color: #fff;
+                    }
+
+    .bottom-head .container-head .right-bottom {
+        width: 290px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .bottom-head .container-head .right-bottom .feedback {
+            padding: 20px 20px;
+            padding-right: 40px;
+            height: 100%;
+            border-right: 1px solid #888;
+        }
+
+            .bottom-head .container-head .right-bottom .feedback a {
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: Arial;
+                font-size: 13px;
+                color: #888;
+            }
+
+                .bottom-head .container-head .right-bottom .feedback a i {
+                    color: #86b817;
+                    transform: rotate(100deg);
+                    font-size: 11px;
+                    margin-right: 2px;
+                }
+
+    .bottom-head .container-head .text-content {
+        height: 100%;
+        line-height: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+        .bottom-head .container-head .text-content p {
+            color: #888;
+            font-size: 12px;
+            font-weight: 400px;
+            font-family: Arial,open sans,sans-serif;
+        }
+
+            .bottom-head .container-head .text-content p a {
+                text-decoration: none;
+            }
+
+                .bottom-head .container-head .text-content p a:hover {
+                    text-decoration: underline;
+                }
+
+#footer {
+    width: 100%;
+    height: 623px;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #eeeeee;
+}
+
+    #footer .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        #footer .container .left {
+            width: 24%;
+            height: auto;
+            margin-right: 30px;
+            line-height: 1.2;
+        }
+
+            #footer .container .left a, #footer .container .left p {
+                font-family: Arial;
+                font-size: 13px;
+                color: #777;
+                font-weight: 400;
+                text-decoration: none;
+            }
+
+                #footer .container .left a:hover {
+                    text-decoration: underline;
+                }
+
+                #footer .container .left a .logo {
+                    margin-top: 0;
+                    max-width: 90%;
+                    display: block;
+                    vertical-align: middle;
+                }
+
+            #footer .container .left p {
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                line-height: 20px;
+                text-align: justify;
+            }
+
+            #footer .container .left i {
+                transform: rotate(100deg);
+                color: #86b817;
+            }
+
+            #footer .container .left .hotline {
+                margin-left: 2px;
+                font-size: 13px;
+                color: #888;
+                font-family: Arial;
+            }
+
+            #footer .container .left .phone {
+                white-space: nowrap;
+                font-family: Arial;
+                color: #86b817;
+                font-size: 26px;
+                font-weight: 700;
+                display: initial;
+                padding-bottom: 15px;
+                margin-top: -5px;
+            }
+
+            #footer .container .left .form {
+                margin-top: 20px;
+            }
+
+                #footer .container .left .form h3 {
+                    display: block;
+                    line-height: 1.1;
+                    font-family: Arial;
+                    font-size: 14px;
+                    font-weight: 700;
+                    padding-bottom: 16px;
+                    text-transform: uppercase;
+                    color: #777 !important;
+                }
+
+                #footer .container .left .form .input-email {
+                    display: inline-table;
+                    vertical-align: middle;
+                    border-collapse: separate;
+                }
+
+                #footer .container .left .form .form-control {
+                    border: 1px solid #86b817;
+                    border-radius: 0;
+                    float: left;
+                    color: #a3a2a2;
+                    font-family: Arial;
+                    font-size: 12px;
+                    font-weight: 300;
+                    cursor: text;
+                    height: 34px;
+                    padding: 6px 27px;
+                    line-height: 1.5;
+                    width: auto;
+                }
+
+                #footer .container .left .form .input-email .email-submit {
+                    background-color: #86b817;
+                    border: none;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 1;
+                    color: #555;
+                    text-align: center;
+                }
+
+                    #footer .container .left .form .input-email .email-submit #btn-email-submit {
+                        background-color: #86b817;
+                        font-family: initial;
+                        font-size: inherit;
+                        line-height: inherit;
+                        cursor: pointer;
+                        padding: 9.5px;
+                        border: none;
+                    }
+
+                        #footer .container .left .form .input-email .email-submit #btn-email-submit i {
+                            color: #fff;
+                            transform: rotate(1deg);
+                        }
+
+        #footer .container .mid1 {
+            width: 25%;
+            position: relative;
+            line-height: 1.2;
+        }
+
+            #footer .container .mid1 h3 {
+                text-transform: uppercase;
+                color: #888;
+                font-family: Arial;
+                font-size: 14px;
+                font-weight: 700;
+                padding-bottom: 16px;
+                text-transform: uppercase;
+            }
+
+            #footer .container .mid1 ul {
+                height: 100%;
+                margin-top: 20px;
+                white-space: nowrap;
+            }
+
+                #footer .container .mid1 ul li {
+                    list-style: none;
+                    margin-bottom: 10px;
+                }
+
+                    #footer .container .mid1 ul li:hover {
+                        text-decoration: underline;
+                    }
+
+                    #footer .container .mid1 ul li i {
+                        color: #86b817;
+                        margin-right: 3px;
+                        font-size: 10px;
+                    }
+
+                    #footer .container .mid1 ul li a {
+                        text-decoration: none;
+                        white-space: nowrap;
+                        color: #777;
+                        font-size: 13px;
+                        font-family: Arial;
+                    }
+
+            #footer .container .mid1 .register {
+                position: absolute;
+                top: 325px;
+                left: 0;
+            }
+
+        #footer .container .mid2 {
+            width: 25%;
+            position: relative;
+            line-height: 1.2;
+        }
+
+            #footer .container .mid2 h3 {
+                text-transform: uppercase;
+                color: #888;
+                font-family: Arial;
+                font-size: 14px;
+                font-weight: 700;
+                padding-bottom: 16px;
+                text-transform: uppercase;
+            }
+
+            #footer .container .mid2 ul {
+                height: 100%;
+                margin-top: 20px;
+                white-space: nowrap;
+            }
+
+                #footer .container .mid2 ul li {
+                    list-style: none;
+                    margin-bottom: 10px;
+                }
+
+                    #footer .container .mid2 ul li:hover {
+                        text-decoration: underline;
+                    }
+
+                    #footer .container .mid2 ul li i {
+                        color: #86b817;
+                        margin-right: 3px;
+                        font-size: 10px;
+                    }
+
+                    #footer .container .mid2 ul li a {
+                        text-decoration: none;
+                        color: #777;
+                        font-size: 13px;
+                        font-family: Arial;
+                    }
+
+            #footer .container .mid2 .payment {
+                position: absolute;
+                top: 420px;
+                left: 0px;
+            }
+
+                #footer .container .mid2 .payment ul {
+                    display: flex;
+                }
+
+                    #footer .container .mid2 .payment ul li {
+                        margin-right: 2px;
+                    }
+
+                        #footer .container .mid2 .payment ul li a i {
+                            color: #86b817;
+                            font-size: 30px;
+                        }
+
+        #footer .container .right {
+            width: 25%;
+            line-height: 1.2;
+        }
+
+            #footer .container .right i {
+                color: #888;
+                font-size: 15px;
+            }
+
+            #footer .container .right h3 {
+                text-transform: uppercase;
+                color: #888;
+                font-family: Arial;
+                font-size: 14px;
+                font-weight: 700;
+                padding-bottom: 16px;
+                text-transform: uppercase;
+            }
+
+            #footer .container .right ul {
+                margin-top: 20px;
+            }
+
+            #footer .container .right .menu-contact li {
+                list-style: none;
+                display: flex;
+                margin-bottom: 10px;
+            }
+
+                #footer .container .right .menu-contact li i {
+                    margin-right: 10px;
+                }
+
+                #footer .container .right .menu-contact li p {
+                    font-family: Arial;
+                    font-size: 13px;
+                    color: #777;
+                    line-height: 1.2;
+                }
+
+                #footer .container .right .menu-contact li a {
+                    font-family: Arial;
+                    font-size: 13px;
+                    color: #777;
+                    text-decoration: none;
+                }
+
+                #footer .container .right .menu-contact li:hover a {
+                    text-decoration: underline;
+                }
+
+            #footer .container .right .list-infor {
+                display: flex;
+                border-bottom: 1px solid #777;
+            }
+
+                #footer .container .right .list-infor i {
+                    margin-right: 10px;
+                }
+
+                #footer .container .right .list-infor div p {
+                    line-height: 1.4;
+                    font-family: Arial;
+                    font-size: 13px;
+                    color: #777;
+                    margin-bottom: 20px;
+                }

@@ -1,0 +1,64 @@
+﻿@model Nhom14_ChuDu.Models.ChiTietKhuyenMai
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h2>Xóa</h2>
+
+<h3>Bạn chắc chắn muốn xóa?</h3>
+<div>
+    <h4>ChiTietKhuyenMai</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.KhuyenMai.Ten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KhuyenMai.Ten)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhongK.Ten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhongK.Ten)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThoiGian)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThoiGian)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+            @Html.ActionLink("Trở lại danh sách chi tiết khuyến mãi", "Index")
+        </div>
+    }
+</div>
+
+@if (ViewBag.Error != null)
+{
+    <br />
+    <div class="alert alert-danger" role="alert">@ViewBag.Error</div>
+}

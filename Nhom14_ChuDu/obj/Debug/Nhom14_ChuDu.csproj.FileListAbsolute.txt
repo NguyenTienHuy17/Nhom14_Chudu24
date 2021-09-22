@@ -1,0 +1,261 @@
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\Nhom14_ChuDu.dll.config
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\Nhom14_ChuDu.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\Nhom14_ChuDu.pdb
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\csc.exe
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\csc.exe.config
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\csc.rsp
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\csi.exe
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\csi.exe.config
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\csi.rsp
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.AppContext.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Console.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.IO.Compression.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Net.Http.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Net.Sockets.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.ValueTuple.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Xml.XPath.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\vbc.exe
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\vbc.exe.config
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\vbc.rsp
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\VBCSCompiler.exe
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\Antlr3.Runtime.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\EntityFramework.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\EntityFramework.SqlServer.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\Newtonsoft.Json.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\PagedList.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\PagedList.Mvc.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\System.Web.Helpers.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\System.Web.Mvc.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\System.Web.Optimization.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\System.Web.Razor.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\System.Web.WebPages.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\System.Web.WebPages.Razor.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\WebGrease.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\EntityFramework.xml
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\EntityFramework.SqlServer.xml
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\PagedList.xml
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\PagedList.Mvc.xml
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\System.Web.Helpers.xml
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\System.Web.Mvc.xml
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\System.Web.Optimization.xml
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\System.Web.Razor.xml
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\System.Web.WebPages.xml
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\System.Web.WebPages.Razor.xml
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\Newtonsoft.Json.xml
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\Antlr3.Runtime.pdb
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\obj\Debug\Nhom14_ChuDu.csproj.AssemblyReference.cache
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\obj\Debug\Nhom14_ChuDu.csproj.CoreCompileInputs.cache
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\obj\Debug\Nhom14_ChuDu.csproj.CopyComplete
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\obj\Debug\Nhom14_ChuDu.dll
+C:\Users\dungb\Downloads\Nhom14_ChuDu24\Nhom14_ChuDu\obj\Debug\Nhom14_ChuDu.pdb
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\Nhom14_ChuDu.dll.config
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\Nhom14_ChuDu.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\Nhom14_ChuDu.pdb
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\csc.exe
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\csc.exe.config
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\csc.rsp
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\csi.exe
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\csi.exe.config
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\csi.rsp
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.AppContext.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Console.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.IO.Compression.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Net.Http.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Net.Sockets.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.ValueTuple.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Xml.XPath.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\vbc.exe
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\vbc.exe.config
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\vbc.rsp
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\VBCSCompiler.exe
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\Antlr3.Runtime.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\EntityFramework.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\EntityFramework.SqlServer.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\Newtonsoft.Json.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\PagedList.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\PagedList.Mvc.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Helpers.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Mvc.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Optimization.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Razor.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.WebPages.Deployment.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.WebPages.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.WebPages.Razor.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\WebGrease.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\EntityFramework.xml
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\EntityFramework.SqlServer.xml
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\PagedList.xml
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\PagedList.Mvc.xml
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Helpers.xml
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Mvc.xml
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Optimization.xml
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Razor.xml
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.WebPages.xml
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.WebPages.Deployment.xml
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.WebPages.Razor.xml
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\Newtonsoft.Json.xml
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\Antlr3.Runtime.pdb
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\obj\Debug\Nhom14_ChuDu.csprojAssemblyReference.cache
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\obj\Debug\Nhom14_ChuDu.csproj.CoreCompileInputs.cache
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\obj\Debug\Nhom14_ChuDu.csproj.CopyComplete
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\obj\Debug\Nhom14_ChuDu.dll
+C:\Users\duchu\OneDrive\Máy tính\New folder (4)\Nhom14_ChuDu\Nhom14_ChuDu\obj\Debug\Nhom14_ChuDu.pdb
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\Nhom14_ChuDu.dll.config
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\Nhom14_ChuDu.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\Nhom14_ChuDu.pdb
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\csc.exe
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\csc.exe.config
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\csc.rsp
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\csi.exe
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\csi.exe.config
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\csi.rsp
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.AppContext.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Collections.Immutable.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Console.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Globalization.Calendars.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.IO.Compression.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.IO.FileSystem.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Net.Http.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Net.Sockets.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Reflection.Metadata.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.ValueTuple.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Xml.XPath.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\vbc.exe
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\vbc.exe.config
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\vbc.rsp
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\VBCSCompiler.exe
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\roslyn\VBCSCompiler.exe.config
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\Antlr3.Runtime.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\EntityFramework.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\EntityFramework.SqlServer.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\Microsoft.Web.Infrastructure.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\Newtonsoft.Json.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\PagedList.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\PagedList.Mvc.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Helpers.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Mvc.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Optimization.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Razor.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.WebPages.Deployment.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.WebPages.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.WebPages.Razor.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\WebGrease.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\EntityFramework.xml
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\EntityFramework.SqlServer.xml
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\PagedList.xml
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\PagedList.Mvc.xml
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Helpers.xml
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Mvc.xml
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Optimization.xml
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.Razor.xml
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.WebPages.xml
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.WebPages.Deployment.xml
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\System.Web.WebPages.Razor.xml
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\Newtonsoft.Json.xml
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\Antlr3.Runtime.pdb
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\obj\Debug\Nhom14_ChuDu.csproj.AssemblyReference.cache
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\obj\Debug\Nhom14_ChuDu.csproj.CoreCompileInputs.cache
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\obj\Debug\Nhom14_ChuDu.csproj.CopyComplete
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\obj\Debug\Nhom14_ChuDu.dll
+E:\Lap trinh UD CSDL tren nen WEB\Nhom14_ChuDu\Nhom14_ChuDu\obj\Debug\Nhom14_ChuDu.pdb

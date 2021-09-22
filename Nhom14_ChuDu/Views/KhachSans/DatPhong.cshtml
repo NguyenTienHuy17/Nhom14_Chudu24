@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "GioHang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row w-75">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <h4 class="text-uppercase">Thông tin cá nhân</h4>
+        <form action="/KhachSans/DatPhong" method="post">
+            @Html.AntiForgeryToken()
+            <div>
+                <label for="exampleInputEmail1" class="form-label">Họ Tên *</label>
+                <input type="text" class="form-control" placeholder="Họ tên" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div>
+                <label for="exampleInputPassword1" class="form-label">Địa chỉ *</label>
+                <input type="text" class="form-control" placeholder="Địa chỉ" id="exampleInputPassword1">
+            </div>
+            <div>
+                <label for="exampleInputPassword1" class="form-label">Số điện thoại *</label>
+                <input type="text" class="form-control" name="sodienthoai" placeholder="Số điện thoại" id="exampleInputPassword1">
+            </div>
+            <div>
+                <label for="exampleInputPassword1" name="email" class="form-label">Địa chỉ email *</label>
+                <input type="text" class="form-control" placeholder="Địa chỉ mail" id="exampleInputPassword1">
+            </div>
+            <input name="IDPhongKS" style="display: none" value="@ViewBag.IDPhongKS" />
+            <input name="soluong" style="display: none" value="@ViewBag.soluong" />
+            <input class="btn btn-primary mt-3" type="submit" value="Thêm vào giỏ hàng" />
+        </form>
+    </div>
+</div>
+

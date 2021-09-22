@@ -1,0 +1,64 @@
+﻿@model Nhom14_ChuDu.Models.TaiKhoan
+
+@{
+    ViewBag.Title = "Đăng ký";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Đăng nhập | Đăng kí</title>
+    <link rel="stylesheet" href="~/Content/login.css" />
+</head><!--/head-->
+
+<body>
+    <!--header bố cục trang -->
+    <div class="login-wrap" style="margin-top: 30px; margin-bottom: 400px">
+        <div class="login-html" style="background-color: #86b817; height: 100%">
+            <input id="tab-2" type="radio" name="tab" class="sign-up"><label style="font-weight: bolder" for="tab-2" class="tab">ĐĂNG KÝ</label>
+            <div class="login-form">
+                <div>
+                    @using (Html.BeginForm("register", "Home", FormMethod.Post, new { enctype = "multipart/form-data", @class = "draw_form", @id = "draw_form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="group">
+                            <input class="form-control" placeholder="Tên" type="text" id="thiet_ke_san_pham" name="Ten" />
+                        </div>
+                        <div class="group">
+                            <input class="form-control" placeholder="Mật khẩu" type="password" id="thiet_ke_san_pham" name="MatKhau" />
+                        </div>
+                        <div class="group">
+                            <input class="form-control" placeholder="Nhập lại Mật khẩu" type="password" id="thiet_ke_san_pham" name="retrypassword" />
+                        </div>
+                        <div class="group">
+                            <input class="form-control" placeholder="Địa chỉ" type="text" id="thiet_ke_san_pham" name="DiaChi" />
+                        </div>
+                        <div class="group">
+                            <input class="form-control" placeholder="Số điện thoại" type="text" id="thiet_ke_san_pham" name="SDT" />
+                        </div>
+                        <div class="group">
+                            <p> @ViewBag.errorPass</p>
+                        </div>
+                        <div class="group">
+                            <input style="background-color: aliceblue; color: black; font-weight: bolder" type="submit" class="button" value="Đăng ký">
+                        </div>
+                        <div class="hr"></div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--header bố cục trang -->
+
+
+</body>
+</html>
+

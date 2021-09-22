@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Trang chủ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    Html.RenderAction("_SearchThanhPho", "ThanhPhoes");
+}
+@Html.Partial("Slider")
+@Html.Partial("SliderBot")
+@{
+    Html.RenderAction("_DsKhachSan", "KhachSans");
+}
+@{
+
+    Html.RenderAction("_DsThanhPho", "ThanhPhoes");
+}

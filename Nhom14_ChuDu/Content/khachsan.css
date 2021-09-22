@@ -1,0 +1,96 @@
+﻿
+
+.ad {
+}
+
+    .ad img {
+        width: 100%;
+    }
+
+.sapxep {
+    border: 1px solid #86b817;
+    border-radius: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: #666;
+    text-transform: uppercase;
+    height: 50px;
+    align-items: center;
+}
+
+    .sapxep span {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+.content-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+}
+
+.text-content h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2b2b2b;
+}
+
+.text-content .diachi {
+    line-height: 22px;
+    font-size: 13px;
+    color: #777;
+}
+
+.text-content .danhgia {
+    line-height: 22px;
+    font-size: 14px;
+    color: #4790cd;
+}
+
+.hotel-price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #86b817;
+}
+
+    .hotel-price small {
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    .hotel-price span {
+        font-size: 12px;
+        color: #999;
+        font-weight: 400;
+    }
+
+.button {
+    background-color: #86b817 !important;
+    border-color: #86b817 !important;
+    color: white;
+}
+
+.button  a {
+    color: white;
+}
+
+    .button:hover {
+        background-color: #86b817;
+        border-color: #86b817;
+        color: white;
+    }
+
+    .button:active {
+        background-color: #86b817;
+        border-color: #86b817;
+        color: white;
+    }
+
+    .button:hover a{
+        color: white;
+    }
+
+    .button:active a{
+        color: white;
+    }

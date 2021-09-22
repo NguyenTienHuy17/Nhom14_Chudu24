@@ -1,0 +1,71 @@
+﻿.detail_hotel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+    .detail_hotel .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .detail_hotel .container > p {
+            width: 100%;
+            text-transform: uppercase;
+            font-family: Arial;
+            font-weight: 400;
+            font-size: 20px;
+        }
+            .detail_hotel .container > p a:hover {
+                text-decoration: underline;
+                color: #86b817;
+                cursor: pointer;
+            }
+        .detail_hotel .container .hotel-of-city {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            
+        }
+
+            .detail_hotel .container .hotel-of-city .container-hotel {
+                border: 1px solid #e3e3e3;
+                width: 100%;
+                height: 270px;
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                margin-bottom:20px;
+            }
+            .container-hotel .hotel-mg {
+                width:96%;
+                height:86%;
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+            }
+
+.container .hotel-of-city .container-hotel .left-container {
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container-hotel .left-container img {
+    vertical-align: middle;
+    height: 100%;
+}
+
+.container-hotel .right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65%;
+}

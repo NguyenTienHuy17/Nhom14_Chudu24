@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Nhom14_ChuDu.Models.PhongK>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "";
+}
+<link href="~/Content/Item_KhachSan.css" type="text/css" rel="stylesheet" />
+
+
+<div style="margin-top:20px;" class="main-km">
+    <div class="container">
+        <h2 class="mb-5"> Welcome admin @Session["Ten"].ToString() to the Admin Page</h2>
+        <div style="width: 100%; color:#666; font-family:Arial; font-weight:400; font-size:18px;">
+            <p style="color:#666; font-family:Arial; font-weight:400; font-size:18px;">TOP Phòng được đặt nhiều nhất</p>
+            <div style="width: 50px; margin-left:0px;margin-top:20px; height: 3px; background-color: #86b817;"></div>
+        </div>
+        <div class="container-item top">
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-4">
+                        <div class="item-khachsan" style="height: auto; padding-bottom: 0;">
+                            <a href="">
+                                <div class="product-img item-zoom">
+                                    @{
+                                        string ImagePath = "~/Image/Khách sạn/" + item.KhachSan.Anh;
+                                    }
+                                    <img class="w-100" src="@Url.Content(ImagePath)" alt="" style="height:300px; width:300px">
+                                    <div class="detail-item">
+                                        <button name="btn-detail" class="btn-detail">XEM CHI TIẾT</button>
+                                    </div>
+                                </div>
+                                <p style="height:30px; color:#666">Số lượng đặt: @item.DatPhongs.Count()</p>
+                                <p style="text-transform:none; font-weight:100;">Khách sạn: @item.KhachSan.Ten </p>
+                                <p style="text-transform:none; font-weight:100;">Loại phòng: @item.Loai</p>
+                            </a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,109 @@
+﻿
+.bg-action {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+}
+
+    .bg-action.display {
+        display: block;
+        background-color: rgba(102, 102, 102, 0.637);
+    }
+.container-contact {
+    top: -500px;
+    left: 35%;
+    position: fixed;
+    z-index:999;
+    width: 450px;
+    height: 426px;
+    transition: ease-in-out .3s;
+}
+
+    .container-contact.active {
+        
+        opacity: 1;
+        top: 50px;
+        left: 35%;
+        opacity: 1;
+    }
+
+    .container-contact .top {
+        width: 100%;
+        height: 38px;
+        background-color: #86b817;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .container-contact .top p {
+            color: #fff;
+            margin-left: 10px;
+            font-family: Arial;
+            font-weight: 600;
+            margin-bottom:0;
+        }
+
+        .container-contact .top button {
+            border: none;
+            margin-right: 10px;
+            background-color: #86b817;
+            cursor: pointer;
+            color: #fff;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-align:center;
+            padding:3px 5px;
+        }
+
+            .container-contact .top button:hover {
+                margin-right:9px;
+                border:1px solid #fff;
+            }
+            .container-contact .top button:hover i {
+                color: #fff;
+            }
+
+    .container-contact .bot {
+        background-color: #fff;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial;
+    }
+
+        .container-contact .bot .row-1 {
+            width: 85%;
+            height: 90%;
+            display:flex;
+            flex-direction:column;
+            justify-content:space-between;
+        }
+
+            .container-contact .bot .row-1 h3 {
+                color: #86b817;
+                font-weight: 100;
+                font-size:1rem;
+            }
+
+            .container-contact .bot .row-1 p {
+                font-size: 13px;
+                color: #777777;
+            }
+
+                .container-contact .bot .row-1 p i {
+                    font-size: 25px;
+                    margin-left: 0px;
+                }
+
+                    .container-contact .bot .row-1 p i:hover {
+                        color: cornflowerblue;
+                        
+                    }

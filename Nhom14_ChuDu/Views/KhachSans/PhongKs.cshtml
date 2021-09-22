@@ -1,0 +1,126 @@
+﻿@model PagedList.IPagedList<Nhom14_ChuDu.Models.PhongK>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/khachsan.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<div class="row">
+    <div class="ad col-3 p-3">
+        <div>
+            <img src="//du-lich.chudu24.com/f/m/1707/07/360x433-Tron-goi-he-gd---Mien-phi-tre-em--4.jpg" alt=""
+                 title="Tron goi gia dinh mien phi tre em" style="height:431px">
+        </div>
+    </div>
+    <div class="col-9 p-3">
+        <div class="sapxep d-flex mb-3">
+            <span>Sắp xếp:</span>
+            <span>  @Html.ActionLink("Tên Phòng", "Index", new { sortOrder = ViewBag.SapTheoTen, curentFilter = ViewBag.curentFilter })</span>
+            @using (Html.BeginForm())
+            {
+                <span>
+                    Tìm phòng khách sạn: @Html.TextBox("searchString", ViewBag.curentFilter as string)
+                    <input type="submit" value="Tìm" />
+                </span>
+            }
+        </div>
+        <div class="main">
+            @foreach (var item in Model)
+            {
+                <form action="/KhachSans/DatPhong" method="post">
+                    @Html.AntiForgeryToken()
+                    <div class="content-item d-flex">
+                        <div class="thumbnail">
+                            <img src="//du-lich.chudu24.com/f/m/2105/18/melia-ho-tram-beach-resort-4.jpg?w=250&amp;h=200"
+                                 data-original="//du-lich.chudu24.com/f/m/2105/18/melia-ho-tram-beach-resort-4.jpg?w=250&amp;h=200"
+                                 alt="Melia Hồ Tràm Beach Resort" style="display: inline;">
+                        </div>
+                        <div class="text-content p-3 w-100">
+                            <h2> @Html.DisplayFor(modelItem => item.Ten)</h2>
+                            <div class="diachi py-3">@Html.DisplayFor(modelItem => item.MoTa)</div>
+                            <span class="danhgia py-3">@Html.DisplayFor(modelItem => item.Loai)</span>
+                            <div class="datphong d-flex mt-3 justify-content-between w-100">
+                                <div class="">
+                                    <p class="hotel-price"> @item.Gia<br> <span>VNĐ/đêm</span> </p>
+                                </div>
+
+                                <div style="width: 150px;">
+                                    <div class="input-group">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="quantity-left-minus btn btn-danger btn-number"
+                                                    data-type="minus" data-field="">
+                                                <i class="fas fa-minus"></i>
+                                            </button>
+                                        </span>
+                                        <input style="text-align: center" type="text" id="quantity" name="soluong" class="form-control input-number mx-1"
+                                               value="1" min="1" max="100">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="quantity-right-plus btn btn-success btn-number"
+                                                    data-type="plus" data-field="">
+                                                <i class="fas fa-plus"></i>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input name="IDPhongKS" style="display: none" value="@item.IDPhongKS" />
+                                    <input class="button btn  mb-0" style="color: white; background: #b1d169" id="submit" type="submit" value="Đặt phòng">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            }
+            <br />
+            Trang @(Model.PageCount<Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page, sortOrder = ViewBag.CurrentSort, curentFilter = ViewBag.curentFilter }))
+        </div>
+    </div>
+</div>
+</div>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+<script src="./js/swiper.js"></script>
+<script>
+        $(document).ready(function () {
+            $('.content a').fancybox();
+        });
+        var quantitiy = 0;
+        $('.quantity-right-plus').click(function (e) {
+
+            // Stop acting like a button
+            e.preventDefault();
+            // Get the field name
+            var quantity = parseInt($('#quantity').val());
+
+            // If is not undefined
+
+            $('#quantity').val(quantity + 1);
+
+
+            // Increment
+
+        });
+
+        $('.quantity-left-minus').click(function (e) {
+            // Stop acting like a button
+            e.preventDefault();
+            // Get the field name
+            var quantity = parseInt($('#quantity').val());
+
+            // If is not undefined
+
+            // Increment
+            if (quantity > 0) {
+                $('#quantity').val(quantity - 1);
+            }
+        });
+</script>
+

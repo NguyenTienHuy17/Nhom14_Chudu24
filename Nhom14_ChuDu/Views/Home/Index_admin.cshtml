@@ -1,0 +1,7 @@
+﻿@{ ViewBag.Title = "Index_admin";
+    Layout = "~/Views/Shared/_Admin.cshtml"; }
+
+@model PagedList.IPagedList<Nhom14_ChuDu.Models.KhachSan>
+@{
+    Html.RenderAction("Index__detail", "KhachSans");
+}

@@ -1,0 +1,63 @@
+﻿@model Nhom14_ChuDu.Models.ThanhPho
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h2>Tạo mới</h2>
+
+
+@using (Html.BeginForm("Create", "ThanhPhoes", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>ThanhPho</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Ten, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Ten, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Ten, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="avatar_nguoi_dung">
+                <img id="img_avatar_nguoi_dung" src="~/Image/unnamed.jpg" width="240px" height="240px" />
+            </label>
+            <input type="file" id="avatar_nguoi_dung" onchange="handleAvatar(event)" name="ImageFile" />
+            <input name="anh" id="product_img" style="display: none" />
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Tạo" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Trở lại danh sách thành phố", "Index")
+</div>
+
+@if (ViewBag.Error != null)
+{
+    <br />
+    <div class="alert alert-danger" role="alert">@ViewBag.Error</div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<script>
+    function handleAvatar(e) {
+        const files = e.target.files;
+        const img = document.getElementById('img_avatar_nguoi_dung');
+        img.src = window.webkitURL.createObjectURL(files[0]);
+    }
+</script>

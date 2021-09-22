@@ -1,0 +1,73 @@
+﻿@model PagedList.IPagedList<Nhom14_ChuDu.Models.KhachSan>
+    @using PagedList.Mvc;
+    <link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+    @{
+        ViewBag.Title = "Index";
+        Layout = "~/Views/Shared/_Admin.cshtml";
+    }
+    <h2 style="margin-top:50px;">Khách sạn</h2>
+    <p>
+        @Html.ActionLink("Tạo mới", "Create")
+    </p>
+    @using (Html.BeginForm())
+    {
+        <p>
+            Tìm khách sạn: @Html.TextBox("searchString", ViewBag.CurrentFilter as string)
+            <input type="submit" value="Tìm" />
+        </p>
+    }
+    <table class="table">
+        <tr>
+            <th>
+                Tên thành phố
+            </th>
+            <th>
+                @Html.ActionLink("Tên khách sạn", "Index__Admin", new
+                   {
+                       sortOrder = ViewBag.SapTheoTen,
+                       currentFilter = ViewBag.CurrentFilter
+                   })
+            </th>
+            <th>
+                Địa chỉ
+            </th>
+            <th>
+                Ảnh
+            </th>
+            <th>
+                Mô tả
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ThanhPho.Ten)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ten)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DiaChi)
+                </td>
+                <td>
+                    @{
+                        string ImagePath = "~/Image/Khách Sạn/" + item.Anh;
+                    }
+                    <img src="@Url.Content(ImagePath)" width="100" class="img-thumbnail" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MoTa)
+                </td>
+                <td style="width:175px;text-align:center;">
+                    @Html.ActionLink("Sửa", "Edit", new { id = item.IDKS }) |
+                    @Html.ActionLink("Chi tiết", "Details", new { id = item.IDKS }) |
+                    @Html.ActionLink("Xóa", "Delete", new { id = item.IDKS })
+                </td>
+            </tr>
+        }
+    </table>
+    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+    @Html.PagedListPager(Model, page => Url.Action("Index__Admin", new { page }))
+

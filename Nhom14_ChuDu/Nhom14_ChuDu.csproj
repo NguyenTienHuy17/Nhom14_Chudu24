@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8BD4E72F-521D-4359-AB31-379F74263C9B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nhom14_ChuDu</RootNamespace>
+    <AssemblyName>Nhom14_ChuDu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44315</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ChiTietKhuyenMaisController.cs" />
+    <Compile Include="Controllers\DatPhongsController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KhachSansController.cs" />
+    <Compile Include="Controllers\KhuyenMaisController.cs" />
+    <Compile Include="Controllers\LoaiKsController.cs" />
+    <Compile Include="Controllers\PhongKsController.cs" />
+    <Compile Include="Controllers\TaiKhoansController.cs" />
+    <Compile Include="Controllers\ThanhPhoesController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChiTietKhuyenMai.cs" />
+    <Compile Include="Models\ChuDu24.cs" />
+    <Compile Include="Models\DatPhong.cs" />
+    <Compile Include="Models\KhachSan.cs" />
+    <Compile Include="Models\KhuyenMai.cs" />
+    <Compile Include="Models\LoaiK.cs" />
+    <Compile Include="Models\PhongK.cs" />
+    <Compile Include="Models\sysdiagram.cs" />
+    <Compile Include="Models\TaiKhoan.cs" />
+    <Compile Include="Models\ThanhPho.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Contact.css" />
+    <Content Include="Content\Content.css" />
+    <Content Include="Content\Item_KhachSan.css" />
+    <Content Include="Content\khachsan.css" />
+    <Content Include="Content\login.css" />
+    <Content Include="Content\PagedList.css" />
+    <Content Include="Content\Search.css" />
+    <Content Include="Content\SearchKhachSan.css" />
+    <Content Include="Content\Slider.css" />
+    <Content Include="Content\SliderBot.css" />
+    <Content Include="Content\TrangChu.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Image\1140x150-di-bien-mua-he-3.jpg" />
+    <Content Include="Image\1140x150-du-lich-nhom-doan-1.jpg" />
+    <Content Include="Image\360x433-bo-suu-tap-3.jpg" />
+    <Content Include="Image\360x433-top-resort-sieu-sang-4.jpg" />
+    <Content Include="Image\360x433-Tron-goi-he-gd---Mien-phi-tre-em--4.jpg" />
+    <Content Include="Image\favicon.ico" />
+    <Content Include="Image\Khách sạn\130505661.jpg" />
+    <Content Include="Image\Khách sạn\46753234781-eb34a58a12-k-1152533.jpg" />
+    <Content Include="Image\Khách sạn\4c48b87b87ca7e9427db15-1021494.jpg" />
+    <Content Include="Image\Khách sạn\amanoi-khanh-hoa-3.jpg" />
+    <Content Include="Image\Khách sạn\amanoi-resort-ninh-thuan-1.jpg" />
+    <Content Include="Image\Khách sạn\anantara-mui-ne-resort.jpg" />
+    <Content Include="Image\Khách sạn\deluxe-villa-exterior-1600166.jpg" />
+    <Content Include="Image\Khách sạn\khach-san-fusion-suites-vung-tau-8.jpg" />
+    <Content Include="Image\Khách sạn\khach-san-intercontinental-nha-trang-0.jpg" />
+    <Content Include="Image\Khách sạn\khach-san-seashells-phu-quoc-1.jpg" />
+    <Content Include="Image\Khách sạn\melia-ho-tram-6701-1632578.jpg" />
+    <Content Include="Image\Khách sạn\minera-binh-chau-hot-spring-resort.jpg" />
+    <Content Include="Image\Khách sạn\pool-2-160343.jpg" />
+    <Content Include="Image\Khách sạn\radisson-blu-resort-cam-ranh-10.jpg" />
+    <Content Include="Image\Khách sạn\six-senses-ninh-van-bay.jpg" />
+    <Content Include="Image\Khách sạn\terracotta-hotel-resort-dalat.jpg" />
+    <Content Include="Image\Khách sạn\the-cliff-resort-residences-12.jpg" />
+    <Content Include="Image\Khách sạn\tmb-da-bai-dai-mo-rong-casino-0-copy-1631513.jpg" />
+    <Content Include="Image\Khách sạn\vinwonders-nha-trang-1.jpg" />
+    <Content Include="Image\logo.png" />
+    <Content Include="Image\Tỉnh thành\da-nang.jpg" />
+    <Content Include="Image\Tỉnh thành\dalat.jpg" />
+    <Content Include="Image\Tỉnh thành\hanoi.jpg" />
+    <Content Include="Image\Tỉnh thành\ho-chi-minh.jpg" />
+    <Content Include="Image\Tỉnh thành\nha-trang.jpg" />
+    <Content Include="Image\Tỉnh thành\phan-thiet.jpg" />
+    <Content Include="Image\Tỉnh thành\phu-quoc.jpg" />
+    <Content Include="Image\Tỉnh thành\vung-tau.jpg" />
+    <Content Include="Image\unnamed.jpg" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\Contact.js" />
+    <Content Include="Scripts\Error.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\Slider.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Content.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\KhachSans\Create.cshtml" />
+    <Content Include="Views\KhachSans\Delete.cshtml" />
+    <Content Include="Views\KhachSans\Details.cshtml" />
+    <Content Include="Views\KhachSans\Edit.cshtml" />
+    <Content Include="Views\KhachSans\Index.cshtml" />
+    <Content Include="Views\KhachSans\_DsKhachSan.cshtml" />
+    <Content Include="Views\KhachSans\Detail.cshtml" />
+    <Content Include="Views\ThanhPhoes\_DsThanhPho.cshtml" />
+    <Content Include="Views\Shared\Contact.cshtml" />
+    <Content Include="Views\Shared\Slider.cshtml" />
+    <Content Include="Views\Shared\Search.cshtml" />
+    <Content Include="Views\ThanhPhoes\_SearchThanhPho.cshtml" />
+    <Content Include="Views\ThanhPhoes\Create.cshtml" />
+    <Content Include="Views\ThanhPhoes\Delete.cshtml" />
+    <Content Include="Views\ThanhPhoes\Details.cshtml" />
+    <Content Include="Views\ThanhPhoes\Edit.cshtml" />
+    <Content Include="Views\ThanhPhoes\Index.cshtml" />
+    <Content Include="Views\ChiTietKhuyenMais\Create.cshtml" />
+    <Content Include="Views\ChiTietKhuyenMais\Delete.cshtml" />
+    <Content Include="Views\ChiTietKhuyenMais\Details.cshtml" />
+    <Content Include="Views\ChiTietKhuyenMais\Edit.cshtml" />
+    <Content Include="Views\ChiTietKhuyenMais\Index.cshtml" />
+    <Content Include="Views\DatPhongs\Create.cshtml" />
+    <Content Include="Views\DatPhongs\Delete.cshtml" />
+    <Content Include="Views\DatPhongs\Details.cshtml" />
+    <Content Include="Views\DatPhongs\Edit.cshtml" />
+    <Content Include="Views\DatPhongs\Index.cshtml" />
+    <Content Include="Views\KhuyenMais\Create.cshtml" />
+    <Content Include="Views\KhuyenMais\Delete.cshtml" />
+    <Content Include="Views\KhuyenMais\Details.cshtml" />
+    <Content Include="Views\KhuyenMais\Edit.cshtml" />
+    <Content Include="Views\KhuyenMais\Index.cshtml" />
+    <Content Include="Views\LoaiKs\Create.cshtml" />
+    <Content Include="Views\LoaiKs\Delete.cshtml" />
+    <Content Include="Views\LoaiKs\Details.cshtml" />
+    <Content Include="Views\LoaiKs\Edit.cshtml" />
+    <Content Include="Views\LoaiKs\Index.cshtml" />
+    <Content Include="Views\PhongKs\Create.cshtml" />
+    <Content Include="Views\PhongKs\Delete.cshtml" />
+    <Content Include="Views\PhongKs\Details.cshtml" />
+    <Content Include="Views\PhongKs\Edit.cshtml" />
+    <Content Include="Views\PhongKs\Index.cshtml" />
+    <Content Include="Views\TaiKhoans\Create.cshtml" />
+    <Content Include="Views\TaiKhoans\Delete.cshtml" />
+    <Content Include="Views\TaiKhoans\Details.cshtml" />
+    <Content Include="Views\TaiKhoans\Edit.cshtml" />
+    <Content Include="Views\TaiKhoans\Index.cshtml" />
+    <Content Include="Views\KhachSans\DatPhong.cshtml" />
+    <Content Include="Views\KhachSans\DonHang.cshtml" />
+    <Content Include="Views\KhachSans\GioHang.cshtml" />
+    <Content Include="Views\KhachSans\PhongKs.cshtml" />
+    <Content Include="Views\KhachSans\TimKhachSan.cshtml" />
+    <Content Include="Views\Shared\SliderBot.cshtml" />
+    <Content Include="Views\Home\DangNhap.cshtml" />
+    <Content Include="Views\Home\register.cshtml" />
+    <Content Include="Views\KhachSans\SearchKS.cshtml" />
+    <Content Include="Views\Shared\_Admin.cshtml" />
+    <Content Include="Views\Home\Index_admin.cshtml" />
+    <Content Include="Views\KhachSans\Index__Admin.cshtml" />
+    <Content Include="Views\KhachSans\Index__detail.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54297</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44315/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

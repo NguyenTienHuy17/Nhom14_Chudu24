@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Đơn hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int index = 0;
+    int thutu = 0;
+}
+
+
+@if (ViewBag.NoSDT != null)
+{
+    <form action="/KhachSans/DonHang" method="post">
+        @Html.AntiForgeryToken()
+        <span>
+            Nhập số điện thoại: <input type="text" name="sodienthoaiSearch" />
+            <input type="submit" value="Tìm" />
+        </span>
+    </form>
+}
+else if (ViewBag.NoItems != null)
+{
+    <div class="my-5" style="color: red; margin-left: 300px; font-size: 30px;">
+        @ViewBag.NoItems
+    </div>
+}
+else
+{
+    foreach (var item in ViewBag.gioHang)
+    {
+        index++;
+    }
+    <h3 class="py-4 m-0 border-bottom">DANH SÁCH ĐƠN HÀNG</h3>
+    <h5 class="my-3">Đơn hàng ( @index sản phẩm )</h5>
+    <h3><a class="btn btn-primary" href="@Url.Action("index", "KhachSans")"> Đặt phòng Tiếp</a></h3>
+    <p class="font-weight-bold">Sản phẩm</p>
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Tên sản phẩm</th>
+                    <th scope="col">Số lượng</th>
+                    <th scope="col">Giá</th>
+                    <th scope="col">Ảnh</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in ViewBag.gioHang)
+                {
+                    thutu++;
+                    <tr>
+                        <th scope="row">@thutu</th>
+                        <td scope="row">@item[1]</td>
+                        <td scope="row">@item[2]</td>
+                        <td scope="row" class="text-uppercase text-color">@item[3] ₫</td>
+                        @*@{
+                                string ImagePath = "~/wwwroot/asset/images/products/" + anh;
+                            }*@
+                        <td scope="row">
+                            @*<img class="me-2" style="width: 100px; height: 100px; padding-left: 10px" src="@Url.Content(ImagePath)" alt="">*@
+                            Test
+                        </td>
+                        <td>
+                            @using (Html.BeginForm("DeleteDonHang", "KhachSans", FormMethod.Post, new { enctype = "multipart/form-data", @id = "draw_form" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                <input name="IDPhongKS" style="display: none" value="@item[0]" />
+                                <div class="font_size-2 text-uppercase text-color ps-5" style="margin-top: 40px">
+                                    <input style="background-color: aliceblue; color: black; font-weight: bolder" type="submit" class="btn btn-primary" value="Hủy đặt phòng">
+                                </div>
+                            }
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+
+
+

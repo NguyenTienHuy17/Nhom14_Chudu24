@@ -1,0 +1,42 @@
+﻿<div class="container">
+    <div class="bot-slider">
+        <div class="container-bot">
+            <div class="slider__bottom">
+                <img src="~/Image/1140x150-di-bien-mua-he-3.jpg" alt="" title="Du lich bien - Con loc gia soc va qua tang">
+            </div>
+            <div class="slider__bottom">
+                <img src="~/Image/1140x150-du-lich-nhom-doan-1.jpg" />
+            </div>
+            <div style="text-align:center; position: absolute; top: 80%; left: 49%;">
+                <span class="bot-dot active_dot"></span>
+                <span class="bot-dot"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    showSlides_bot();
+    var dem = 0;
+    function showSlides_bot() {
+      var slides = document.getElementsByClassName("slider__bottom");
+      var dots = document.getElementsByClassName("bot-dot");
+
+        if (dem > slides.length) { dem = 0 }
+
+        if (dem == 1) {
+            dots[0].classList.value = "bot-dot active_dot";
+            dots[1].classList.value = "bot-dot";
+            slides[0].classList.value = 'slider__bottom active-right';
+            slides[1].classList.value = "slider__bottom right";
+        }
+        if (dem == 0) {
+            dots[1].classList.value = "bot-dot active_dot";
+            dots[0].classList.value = "bot-dot";
+            slides[1].classList.value = 'slider__bottom active-left';
+            slides[0].classList.value = "slider__bottom left";
+        }
+
+        dem++;
+        setTimeout(showSlides_bot, 2000);
+    }
+</script>

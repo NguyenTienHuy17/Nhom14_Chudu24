@@ -1,0 +1,52 @@
+﻿@model PagedList.IPagedList<Nhom14_ChuDu.Models.LoaiK>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h2  style="margin-top:50px;">Loại khách sạn</h2>
+
+<p>
+    @Html.ActionLink("Tạo mới", "Create")
+</p>
+
+@using (Html.BeginForm())
+{
+    <p>
+        Tìm loại khách sạn: @Html.TextBox("searchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Tìm" />
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Loại", "Index", new
+               {
+                   sortOrder = ViewBag.SapTheoTen,
+                   currentFilter = ViewBag.CurrentFilter
+               })
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Loai)
+            </td>
+            <td style="text-align:center;">
+                @Html.ActionLink("Sửa", "Edit", new { id = item.IDLoaiKs }) |
+                @Html.ActionLink("Chi tiết", "Details", new { id = item.IDLoaiKs }) |
+                @Html.ActionLink("Xóa", "Delete", new { id = item.IDLoaiKs })
+            </td>
+        </tr>
+    }
+
+</table>
+
+Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page }))

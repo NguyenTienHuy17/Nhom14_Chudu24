@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Nhom14_ChuDu.Models.ThanhPho>
+<div class="main-search">
+    <div class="container">
+        <div class="search">
+            <div class="search-container">
+                <div class="left">
+                    <form onsubmit="validateMyForm(event)" action="KhachSans/TimKhachSan" method="post">
+                        <div class="city-search">
+                            <p>Thành phố</p>
+                            <select id="city" name="city" class="select-city">
+                                <option value="df" selected>---Chọn thành phố---</option>
+                                @foreach (var item in Model)
+                                {
+                                    <option value="@item.IDThanhPho">@item.Ten</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="hotel-search">
+                            <p>Khách sạn</p>
+                            <input id="hotel" name="hotel" type="text" placeholder="Nhập tên khách sạn" />
+                        </div>
+                        <div class="button-search">
+                            <button type="submit">TÌM KIẾM<i style="margin-left: 5px;" class="fas fa-search"></i></button>
+                        </div>
+                    </form>
+                    <div style="width: 100%; text-align: center; color: #dc3545!important; font-family: Arial; font-size: 14px; font-weight: 400;" class="error">Cần chọn 1 tỉnh hoặc nhập 1 khách sạn để tìm!</div>
+                </div>
+                <div class="right">
+                    <p style="color: #4790cd; font-weight: 600; margin-bottom: 5px; font-size: 17px;">Niềm vui của Chudu24</p>
+                    <p style="color: #000; font-weight: 600; margin-bottom: 5px;">Bùi Thị Lan Hương</p>
+                    <p style="color: #777; margin-bottom: 5px;">14 - 01 - 2021</p>
+                    <p style="font-style: italic; color: #777; margin-bottom: 10px; margin: 0px 20px;line-height: 20px; text-align: center;">"Cảm ơn bạn Loan Chudu24 đã nhiệt tình tư vấn và hỗ trợ."</p>
+                    <p style="margin-right: -240px;"><a href="#">Xem toàn bộ đánh giá</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var e = document.getElementById("city");
+    var hotel = document.getElementById("hotel");
+    var error = document.querySelector(".error");
+    function validateMyForm(event) {
+        var strUser = e.options[e.selectedIndex].value;
+        var ipHotel = hotel.value;
+        if (strUser == "df" && ipHotel == "") {
+            console.log(strUser);
+            error.className = "error display-error"
+            event.preventDefault();
+            return false;
+        }
+
+    }
+</script>
+

@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - ChuDu24</title>
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="~/Image/favicon.ico" type="image/icon type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/TrangChu.css" type="text/css" rel="stylesheet" />
+    <link href="~/Content/Item_KhachSan.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Content/Contact.css">
+    <link rel="stylesheet" href="~/Content/Slider.css">
+    <link rel="stylesheet" href="~/Content/Search.css">
+    <link rel="stylesheet" href="~/Content/SliderBot.css">
+    <link rel="stylesheet" href="~/Content/SearchKhachSan.css">
+
+    <script type="text/javascript" src="~/Scripts/Slider.js"></script>
+    <script type="text/javascript" src="~/Scripts/Contact.js"></script>
+    <script type="text/javascript" src="~/Scripts/Error.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <div class="top-head">
+            <div class="container">
+                <div class="left-header">
+                    <ul>
+                        <li><a href="@Url.Action("Index", "KhachSans")" id="btnBookQuick">Đặt phòng nhanh</a></li>
+                        <li><a href="@Url.Action("Index", "KhachSans")" id="btnBookGroup">Đặt phòng đoàn</a></li>
+                        <li><a href="@Url.Action("Index", "KhachSans")" id="btnBookVeNhanh">Đặt vé nhanh</a></li>
+                    </ul>
+                </div>
+                <div class="right-header">
+                    <ul>
+                        <li><a href="#" id="btnGopY"><i class="fas fa-comments-dollar"></i></a></li>
+                        @if (Session["Ten"] != null)
+                        {
+                            <li><a href="#">@Session["Ten"].ToString()</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="@Url.Action("register", "Home")">Đăng kí thành viên</a></li>
+                        }
+                        @if (Session["IDTK"] != null)
+                        {
+                            <li><a href="@Url.Action("DangXuat", "Home")">Đăng xuất</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="@Url.Action("DangNhap","Home")">Đăng nhập</a></li>
+                        }
+                        <li><a href="#">Quên mật khẩu</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-head">
+            <div class="container">
+                <div class="container-head">
+                    <div class="left-bottom">
+                        <div class="logo">
+                            <a href="/" title="Khách Sạn, Đánh Giá, Khuyến Mãi">
+                                <img alt="Khách Sạn, Đánh Giá, Khuyến Mãi" src="~/Image/logo.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mid-bottom">
+                        <ul class="nav nav-pills nav-main" id="mainMenu">
+                            <li class="">
+                                <a class="" href="" title="Trang chủ">
+                                    @Html.ActionLink("Trang Chủ", "Index", "Home")
+                                </a>
+                            </li>
+                            <li class="">
+                                <a class="" href="" title="Khách sạn">
+                                    @Html.ActionLink("Khách sạn", "Index", "KhachSans")
+                                </a>
+                            </li>
+                            <li class="">
+                                <a class="" href="" title="Khuyến mãi">
+                                    @Html.ActionLink("Khuyến mãi", "Content", "Home")
+                                </a>
+                            </li>
+                            <li class="">
+                                <a class="" href="" title="Du Lịch Hè">
+                                    @Html.ActionLink("Du lịch hè", "Content", "Home")
+                                </a>
+                            </li>
+                            <li class="">
+                                <a class="" href="" title="Lời khen">
+                                    @Html.ActionLink("Giỏ hàng", "GioHang", "KhachSans")
+                                </a>
+                            </li>
+                            <li class="">
+                                <a class="" href="" title="ChuduInfo">
+                                    @Html.ActionLink("Đơn hàng", "DonHang", "KhachSans")
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-bottom">
+                        <div class="feedback">
+                            <a onclick="active_contact()" href="#"><i class="fa fa-phone" aria-hidden="true"></i>Liên hệ</a>
+                        </div>
+                        <div class="text-content">
+                            <p><b>1900 5454 40</b></p>
+                            <p>028 3925 1055</p>
+                            <p>Hotline: 0935 154 037</p>
+                            <p><span>Email:</span> <a style="color: #888;font-size: 12px;" href="#">chudu24 </span></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    @Html.Partial("Contact");
+    <div class="body-content">
+        @RenderBody()
+    </div>
+    <footer id="footer">
+        <div class="container pt-3">
+            <div class="left">
+                <a title="Khách Sạn, Đánh Giá, Khuyến Mãi">
+                    <img alt="Khách Sạn, Đánh Giá, Khuyến Mãi" class="logo" src="~/Image/logo.png" />
+                </a>
+                <br />
+                <p>Chudu24 luôn không ngừng đẩy mạnh hoạt động và phát triển, cả về sản phẩm, dịch vụ và đội ngũ, nhằm đáp ứng tốt nhất nhu cầu của khách hàng.</p>
+                <i class="fa fa-phone"></i><span class="hotline">Hotline:</span><span class="phone">1900 54 54 40</span>
+                <a href="#"><span class="emai">chudu24</span></a>
+                <div class="form">
+                    <h3>Đừng bỏ lỡ cơ hội giá tốt!</h3>
+                    <div style="width: 50px; height: 3px; background-color: #86b817;"></div>
+                    <p>Chudu24 sẽ cập nhật thường xuyên về những ưu đãi, khuyến mãi mới và hot trong tháng đến quý khách.</p>
+                    <div class="input-email">
+                        <input id="txt-email" type="email" class="form-control" placeholder="Email của bạn" required>
+                        <span class="email-submit">
+                            <button id="btn-email-submit" type="submit" name="subscrible_submit"><i class="fa fa-check"></i></button>
+                        </span>
+                    </div>
+                    <p style="font-size: 11px;">Chúng tôi không bao giờ chia sẻ thông tin của bạn.</p>
+                    <p style="color: #F9F9F9;"></p>
+                </div>
+            </div>
+            <div class="mid1">
+                <h3>Chudu24</h3>
+                <div style="width: 50px; height: 3px; background-color: #86b817;"></div>
+                <ul>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Hợp Tác Với Chudu24" href="https://dulich.chudu24.com/hop-tac-voi-chudu24.html">Hợp Tác Với Chudu24</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Nói Về Chudu24" href="https://www.chudu24.com/noi-ve-chudu24.html">Nói Về Chudu24</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Hướng Dẫn Du Lịch" href="https://www.chudu24.com/huong-dan-du-lich.html">Hướng Dẫn Du Lịch</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Tích lũy điểm thưởng" href="https://www.chudu24.com/thongtindulich/2018/01/23/tich-luy-diem-thuong-danh-cho-thanh-vien-cua-chudu24/">Tích lũy điểm thưởng</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Khách hàng thân thiết" href="https://www.chudu24.com/thongtindulich/2018/01/26/uu-dai-dac-biet-danh-cho-khach-hang-thiet-cua-chudu24/">Khách hàng thân thiết</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Voucher quà tặng" href="https://dulich.chudu24.com/voucher-qua-tang.html">Voucher quà tặng</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Câu Hỏi Thường Gặp" href="https://www.chudu24.com/cau-hoi-thuong-gap.html">Câu Hỏi Thường Gặp</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Chính Sách Quyền Riêng Tư" href="https://www.chudu24.com/noi-ve-chudu24/396/chinh-sach-quyen-rieng-tu-cua-chudu24.html">Chính Sách Quyền Riêng Tư</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Quy Chế Sàn Giao Dịch TMĐT Chudu24" href="https://www.chudu24.com/noi-ve-chudu24/404/quy-che-quan-ly-hoat-dong-san-giao-dich-tmdt-chudu24.html">Quy Chế Sàn Giao Dịch TMĐT Chudu24</a></li>
+                </ul>
+                <div class="register">
+                    <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=3820">
+                        <img alt="Chudu24 Đã đăng ký với Bộ Công Thương" title="" src="https://www.chudu24.com/img/logoBCT.png?w=90&c=1">
+                    </a>
+                </div>
+            </div>
+            <div class="mid2">
+                <h3>Liên kết nhanh</h3>
+                <div style="width: 50px; height: 3px; background-color: #86b817;"></div>
+                <ul>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Đánh giá khách sạn" href="https://www.chudu24.com/danh-gia-khach-san.html">Đánh giá khách sạn</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Địa Điểm" href="https://www.chudu24.com/khach-san-theo-dia-diem.html">Địa Điểm</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Dịch Vụ Du Lịch" href="https://www.chudu24.com/khach-san-theo-dich-vu-du-lich.html">Dịch Vụ Du Lịch</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Khu Vực" href="https://www.chudu24.com/khach-san-theo-khu-vuc.html">Khu Vực</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Resort" href="https://www.chudu24.com/resort-theo-khu-vuc.html">Resort</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Villa" href="https://www.chudu24.com/villa-theo-khu-vuc.html">Villa</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Căn hộ" href="https://www.chudu24.com/can-ho-theo-khu-vuc.html">Căn hộ</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Khuyến mãi" href="https://www.chudu24.com/khach-san/khuyen-mai.html">Khuyến mãi</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Thông tin về tiêu chuẩn khách sạn" href="https://www.chudu24.com/noi-ve-chudu24/398/thong-tin-ve-tieu-chuan-khach-san.html">Thông tin về tiêu chuẩn khách sạn</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Khách sạn theo sao" href="https://www.chudu24.com/khach-san-theo-sao.html">Khách sạn theo sao</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Đặt Phòng Khách Sạn" href="https://www.chudu24.com/khach-san.html">Đặt Phòng Khách Sạn</a></li>
+                    <li><i class="fa fa-angle-double-right"></i><a title="Đăng Ký Nhận Thư Khuyến Mãi" href="https://www.chudu24.com/DangKyEmailKhuyenMai.aspx">Đăng Ký Nhận Thư Khuyến Mãi</a></li>
+                </ul>
+                <div class="payment">
+                    <h3>Hỗ trợ thanh toán thẻ</h3>
+                    <div style="width: 50px; height: 3px; background-color: #86b817;"></div>
+                    <ul class="list-payment">
+                        <li><a><i class="fab fa-cc-visa"></i></a></li>
+                        <li><a><i class="fab fa-cc-mastercard"></i></a></li>
+                        <li><a><i class="fab fa-cc-amex"></i></a></li>
+                        <li><a><i class="fab fa-amazon-pay"></i></a>></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <h3>Liên hệ</h3>
+                <div style="width: 50px; height: 3px; background-color: #86b817;"></div>
+                <ul class="menu-contact">
+                    <li>
+                        <i class="far fa-building"></i>
+                        <p>Tầng 12, Royal B, số 235 Nguyễn Văn Cừ, Phường Nguyễn Cư Trinh, Quận 1, TP Hồ Chí Minh.</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        <p><a href="https://goo.gl/maps/hLAhgCxZHK8NP7qA7">Bản đồ Chudu24</a></p>
+                    </li>
+                    <li>
+                        <i class="fa fa-phone"></i>
+                        <p>1900 54 54 40 (1000đ/phút)</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <p><a href="/cdn-cgi/l/email-protection#ff9b9e8b8f97909198bf9c978a9b8acdcbd19c9092"><span class="__cf_email__" data-cfemail="2b4f4a5f5b4344454c6b48435e4f5e191f05484446">chudu24</span></a></p>
+                    </li>
+                </ul>
+                <ul class="list-infor">
+                    <i class="fa fa-copyright"></i>
+                    <div>
+                        <p>2008 Công Ty Cổ Phần Dịch Vụ<br />Chu Du Hai Bốn.</p>
+                        <p>Giấy CNĐKDN: 0306 212 587</p>
+                        <p>Văn phòng: Đại học Công Nghiệp Hà Nội</p>
+                        <p>GP số 31/GP-STTTT do Sở TTTT TPHCM cấp ngày 02/04/2018</p>
+                        <p>ĐT: 094 823 7976</p>
+                        <p>Chịu trách nhiệm nội dung: Trần Đức Huy, Nguyễn Tiến Huy, Bùi Hữu Dũng</p>
+                    </div>
+                </ul>
+                <ul class="fb-link">
+                    <li style="list-style: none;"><a target="_blank" href="https://www.facebook.com/"><i style="color: #777;" class="fab fa-facebook-square"></i></a></li>
+                </ul>
+                <br />
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿@model Nhom14_ChuDu.Models.TaiKhoan
+
+@{
+    ViewBag.Title = "Đăng nhập";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="~/Content/login.css" />
+</head><!--/head-->
+
+<body>
+    <!--header bố cục trang -->
+    <div class="login-wrap" style="margin-top: 30px">
+        <div class="login-html" style="background-color: #86b817;">
+            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label style="font-weight: bolder" for="tab-1" class="tab">ĐĂNG NHẬP</label>
+            <div class="login-form">
+                <div>
+                    @using (Html.BeginForm("DangNhap", "Home", FormMethod.Post))
+                    {
+                    @Html.AntiForgeryToken()
+                        <div class="group">
+                            @Html.TextBoxFor(m => m.Ten, "", new { @class = "form-control", @placeholder = "Tên Đăng Nhập" })
+                        </div>
+                        <div class="group">
+                            @Html.TextBoxFor(m => m.MatKhau, "", new { @class = "form-control", @Type = "password", @placeholder = "Mật Khẩu" })
+                        </div>
+                        <div class="group">
+                            <input id="check" type="checkbox" class="check" checked>
+                            <label for="check"><span class="icon"></span> Giữ đăng nhập lần sau</label>
+                        </div>
+                        <div class="group">
+                            <input style="background-color: aliceblue; color: black; font-weight: bolder" type="submit" class="button" value="Đăng nhập">
+                        </div>
+                        <div style="color: red">
+                            @ViewBag.error
+                        </div>
+                    }
+                    <div class="hr"></div>
+                    <div class="foot-lnk">
+                        <a href="#forgot">Quên mật khẩu?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+
+    <!--header bố cục trang -->
+
+  
+</body>
+</html>

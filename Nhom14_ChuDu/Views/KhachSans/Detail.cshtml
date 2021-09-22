@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Nhom14_ChuDu.Models.PhongK>
+<div class="detail__container">
+    <h2>Chi tiết giá phòng "Deluxe - Ưu đãi đặc biệt | Gồm ăn sáng + Xe đưa đón từ Tp. HCM"</h2>
+    <hr style="opacity: .5;">
+    <br>
+    <div>
+        <table class="table table-bordered">
+            <tr>
+                <th>Tên phòng</th>
+                <th>Loại phòng</th>
+                <th>Giá</th>
+                <th>Thời gian</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+        <tr>
+            <td>@item.Ten.ToString()</td>
+            <td>@item.Loai.ToString()</td>
+            <td>@item.ChiTietKhuyenMais.FirstOrDefault().Gia</td>
+            <td>@item.ChiTietKhuyenMais.FirstOrDefault().ThoiGian</td>
+        </tr>
+            }
+        </table>
+    </div>
+    <h3>Giá phòng bao gồm</h3>
+    <hr style="opacity: .5;">
+    <div class="service">
+        <i class="ti-check"></i> Ăn Sáng <br>
+        <i class="ti-check"></i> Miễn phí xe đưa đón 02 chiều từ Sài Gòn đến khu nghỉ theo số người quy định của mỗi phòng (tùy vào tình trạng trống của xe và lịch trình của khu nghỉ) <br>
+        <i class="ti-check"></i> Miễn phí sử dụng xe đạp và sân tennis theo lịch trình của Khu nghỉ <br>
+        <i class="ti-check"></i> Sử dụng hồ bơi, phòng tập thể dục miễn phí <br>
+        <i class="ti-check"></i> Nước suối, trà, cà phê trong phòng miễn phí <br>
+        <i class="ti-check"></i> Nước uống chào đón khi nhận phòng <br>
+        <i class="ti-check"></i> Sử dụng internet, wifi miễn phí <br>
+        <i class="ti-check"></i> Thuế VAT <br>
+        <i class="ti-check"></i> Phí Dịch Vụ <br>
+    </div>
+    <h3>Lưu ý & chính sách</h3>
+    <hr style="opacity: .5;">
+    <div class="mrgl3x">
+        - Khuyến mãi áp dụng cho booking đặt mới từ&nbsp;
+        27/05/2021<br>-&nbsp;
+        Áp dụng đơn đặt phòng khách lẻ dưới 10 phòng<br>-&nbsp;
+        Khuyến mãi với số lượng có hạn &amp;
+        có thể kết thúc sớm<br><br>Để biết thêm chi tiết và đặt gói khuyến mãi,  vui lòng liên hệ với tổng đài&nbsp;
+        <strong>1900 5454 40</strong>&nbsp;
+        hoặc email&nbsp;
+        <strong>datphong@chudu24.coma</strong>
+    </div>
+    <h3>Điều kiện hủy phòng</h3>
+    <hr style="opacity: .5;">
+    <div class="cancel__condition">
+        <p>
+            <strong>
+                *&nbsp;
+                27/05/2021 - 18/06/2021<br><br>Đối với đặt phòng lưu trú trong tuần:  từ Thứ 2 - Thứ 5:&nbsp;
+                <br>
+            </strong>- Hủy phòng trước 10 ngày (trừ Thứ 7,  Chủ nhật, &nbsp;
+            Lễ Tết) trước ngày khách đến nhận phòng:  Không tính phí<br>- Hủy phòng trong vòng 10 ngày&nbsp;
+            (trừ Thứ 7,  Chủ nhật, &nbsp;
+            Lễ Tết) trước ngày khách đến nhận phòng hoặc khách không đến:  Tính 100% tổng giá trị booking đã đặt<br><br><strong>Đối với đặt phòng lưu trú cuối tuần: Thứ 6,  Thứ 7,  Chủ nhật<br></strong>- Hủy phòng trước 13 ngày&nbsp;
+            (trừ Thứ 7,  Chủ nhật, &nbsp;
+            Lễ Tết) trước ngày khách đến nhận phòng:  Không tính phí<br>- Hủy phòng trong vòng 13 ngày&nbsp;
+            (trừ Thứ 7,  Chủ nhật, &nbsp;
+            Lễ Tết) trước ngày khách đến nhận phòng hoặc khách không đến:  Tính 100% tổng giá trị booking đã đặt<br><br><strong>
+                <strong>
+                    <strong>
+                        *&nbsp;
+                        19/06/2021 - 05/09/2021
+                    </strong>
+                </strong><br><br>Đối với đặt phòng lưu trú trong tuần:  từ Chủ nhật - Thứ 6:&nbsp;
+                <br>
+            </strong>- Hủy phòng trước 10 ngày (trừ Thứ 7,  Chủ nhật, &nbsp;
+            Lễ Tết) trước ngày khách đến nhận phòng:  Không tính phí<br>- Hủy phòng trong vòng 10 ngày&nbsp;
+            (trừ Thứ 7,  Chủ nhật, &nbsp;
+            Lễ Tết) trước ngày khách đến nhận phòng hoặc khách không đến:  Tính 100% tổng giá trị booking đã đặt<br><br><strong>Đối với đặt phòng lưu trú cuối tuần: Thứ 7<br></strong>- Hủy phòng trước 17 ngày&nbsp;
+            (trừ Thứ 7,  Chủ nhật, &nbsp;
+            Lễ Tết) trước ngày khách đến nhận phòng:  Không tính phí<br>- Hủy phòng trong vòng 17 ngày&nbsp;
+            (trừ Thứ 7,  Chủ nhật, &nbsp;
+            Lễ Tết) trước ngày khách đến nhận phòng hoặc khách không đến:  Tính 100% tổng giá trị booking đã đặt<br><br><strong>Giai đoạn lễ,  tết khác vui lòng không hoàn,  không hủy,  không thay đổi đơn đặt phòng đã đặt.<br></strong><strong><strong>Các yêu cầu về thay đổi giai đoạn ở,  rút ngắn thời gian lưu trú hay giảm số lượng phòng đều được xem là hủy phòng và sẽ áp dụng theo chính sách hủy như trên.</strong></strong><br><br><br><br>
+        </p>
+    </div>
+</div>
